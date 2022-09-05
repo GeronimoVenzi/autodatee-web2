@@ -1,0 +1,20 @@
+.nav_burger{
+    border: none !important;
+}
+
+.nav_bar{
+    border-bottom:1px solid #e1e6e7;
+    width: 100%;
+    position: fixed;
+}
+
+@media only screen and (min-width: 768px) {
+   
+    .nav_burger{
+        margin-right: 120px;
+    }
+    .nav_title{
+        margin-left: 120px;
+    }
+
+}
