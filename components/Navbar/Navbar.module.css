@@ -8,6 +8,10 @@
     position: fixed;
 }
 
+.nav_link_text {
+    color: black;
+}
+
 @media only screen and (min-width: 768px) {
    
     .nav_burger{

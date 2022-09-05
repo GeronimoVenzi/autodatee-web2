@@ -2,10 +2,9 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { NavLink } from "react-bootstrap";
 
-import styles from "./Navbar.module.css";
 import Logo from "/components/assets/Logos/AD-logo.png";
+import styles from "./Navbar.module.css";
 import Image from "next/image";
 export const NavBar = () => {
   return (
@@ -14,7 +13,7 @@ export const NavBar = () => {
         <Container fluid>
           <Navbar.Brand className={styles.nav_title} href="/">
             <Image
-              src="/components/assets/Logos/AD-logo.png"
+              src={Logo}
               width="65"
               height="45"
               className="d-inline-block align-top"
@@ -28,16 +27,25 @@ export const NavBar = () => {
             placement="end"
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>
+              <Offcanvas.Title
+                id={`offcanvasNavbarLabel-expand`}
+                className={styles.nav_link_text}
+              >
                 Menu
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <NavLink href="#inicio">Home</NavLink>
-                <NavLink href="#nosotros">Sobre nosotros</NavLink>
-                <NavLink href="#servicios">Servicios</NavLink>
-                <NavLink href="#action2">Contactanos</NavLink>
+              <Nav
+                className={`${styles.nav_link_text}
+                justify-content-end
+                flex-grow-1
+                pe-3
+                `}
+              >
+                <Nav.Link href="#inicio">Home</Nav.Link>
+                <Nav.Link href="#nosotros">Sobre nosotros</Nav.Link>
+                <Nav.Link href="#servicios">Servicios</Nav.Link>
+                <Nav.Link href="#contacto">Contactanos</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
