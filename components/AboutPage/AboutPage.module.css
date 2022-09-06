@@ -1,0 +1,109 @@
+.title__nosotros{
+    margin-bottom: 30px;
+}
+
+.title__about {
+    text-align: center;
+    max-height: 100px;
+}
+
+.title__about h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.title__second {
+    color: var(--titulosWeb);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image__card {
+    border-radius: 50%;
+}
+
+.team__card {
+    border: none !important;
+    width: 8rem;
+}
+
+.cards__title {
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.card__pharagraph {
+ font-size: 12px !important;
+ font-weight: 400;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card__container__valores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card__container h5 {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+.valor__card {
+    border: none !important;
+    width: 10rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .title__about{
+        text-align: start;
+        margin-left: 100px;
+    }
+
+    .about__container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__container article {
+        width: 40%;
+    }
+    .about__container .card__container {
+        width: 40%;
+        align-items: center;
+    }
+
+    .title__second{
+        margin-top: 50px;
+    }
+
+    .card__container {
+        justify-content: space-around;
+    }
+
+    .team__card {
+        width: 7rem;
+    }
+
+    .card__container__valores {
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+
+    .valor__card .image__card {
+        width: 7rem;
+        align-self: center;
+    }
+
+    .card__container__valores .cards__title{
+        font-weight: 400;
+    }
+
+}
