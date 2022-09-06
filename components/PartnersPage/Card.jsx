@@ -1,10 +1,12 @@
 import Image from 'next/image';
 
+import Imagen from "/components/assets/logos-clientes/";
+
 const Card = ({ marca }) => {
     return (
         <div className="card__marca">
             <Image
-                src={`components/assets/logos-clientes/${marca.url}`}
+                src={`${Imagen} ${marca.url}`}
                 alt={marca.nombre}
             />
         </div>
