@@ -1,0 +1,23 @@
+.bg__partners {
+    background-image: url("../assets/fondo-casos-de-exito.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: calc(180vh - 50px);
+}
+
+.title__container__text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.title__container__text h1 {
+    color: var(--textoClaro);
+    margin-top: 50px; 
+}
+
+@media only screen and (min-width: 768px) {
+    .bg__partners {
+        background-size: contain;
+    }
+}

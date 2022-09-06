@@ -1,0 +1,83 @@
+.services {
+    background-color: var(--textoClaro);
+    margin-bottom: 80px;
+}
+
+.services h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.card__services {
+    min-height: 340px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.card__estrategia {
+    background-image: url("../assets/cards-service/Instancia-1/estrategia1.png");
+    transition: 0.3s all ease-in;
+}
+
+.card__estrategia:hover {
+    background-image: url("../assets/cards-service/Instancia-2/estrategia2.png");
+}
+
+.card__creatividad {
+    background-image: url("../assets/cards-service/Instancia-1/creatividad1.png");
+    transition: 0.3s all ease-in;
+}
+
+.card__creatividad:hover {
+    background-image: url("../assets/cards-service/Instancia-2/creatividad2.png");
+}
+
+.card__relaciones {
+    background-image: url("../assets/cards-service/Instancia-1/RRPP1.png");
+    transition: 0.3s all ease-in;
+}
+
+.card__relaciones:hover {
+    background-image: url("../assets/cards-service/Instancia-2/RRPP2.png");
+}
+
+.card__social {
+    background-image: url("../assets/cards-service/Instancia-1/social-media1.png");
+    transition: 0.3s all ease-in;
+}
+
+.card__social:hover {
+    background-image: url("../assets/cards-service/Instancia-2/social-media2.png");
+}
+
+.card__gestion {
+    background-image: url("../assets/cards-service/Instancia-1/crisis1.png");
+    transition: 0.3s all ease-in;
+}
+
+.card__gestion:hover {
+    background-image: url("../assets/cards-service/Instancia-2/crisis2.png");
+}
+
+
+.card__generacion {
+    background-image: url("../assets/cards-service/Instancia-1/leads1.png");
+    transition: 0.3s all ease-in;
+}
+
+.card__generacion:hover {
+    background-image: url("../assets/cards-service/Instancia-2/leads2.png");
+}
+
+.service__card__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.service__card__body p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
