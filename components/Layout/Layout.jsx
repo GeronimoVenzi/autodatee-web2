@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { FormPage } from "../FormPage/FormPage";
 import { NavBar } from "../Navbar";
 
 export const Layout = ({ children }) => {
@@ -13,10 +14,13 @@ export const Layout = ({ children }) => {
                     <meta property="og:image" content={`${origin}/img/banner.png`} />*/}
       </Head>
 
-      <NavBar />
       {/* ACA VA EL NAVBAR */}
+      <NavBar />
+
       {children}
+
       {/* FORMULARIO */}
+      <FormPage />
       {/* FOOTER */}
     </>
   );

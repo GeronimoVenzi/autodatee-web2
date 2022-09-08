@@ -1,55 +1,56 @@
 import { Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
 import "swiper/css";
-import Card from "./Card";
 import styles from "./Slider.module.css";
+import Card from './Card';
 
 export const Slider = () => {
-    const marcas = [
-        {
-            nombre: "Prana",
-            url: "prana.jpg",
-        },
-        {
-            nombre: "Ruta3",
-            url: "descarga.png",
-        },
-        {
-            nombre: "Nation",
-            url: "nation-sa.png",
-        },
-        {
-            nombre: "AutoHaus",
-            url: "AUTOHAUS.jpg",
-        },
-        {
-            nombre: "FordGoldstein",
-            url: "GOLDSTEIN.jpg",
-        },
-        {
-            nombre: "Yacopini",
-            url: "yacopini.png",
-        },
-        {
-            nombre: "Giama",
-            url: "GIAMA.png",
-        },
-        {
-            nombre: "LeParc",
-            url: "le-parc.png",
-        },
-        {
-            nombre: "GrupoAntun",
-            url: "grupo-antun.jpg",
-        },
-        {
-            nombre: "AutoCity",
-            url: "Autocity-01.png",
-        },
-    ];
+    // const marcas = [
+    //     {
+    //         nombre: "Prana",
+    //         url: "prana.jpg",
+    //     },
+    //     {
+    //         nombre: "Ruta3",
+    //         url: "descarga.png",
+    //     },
+    //     {
+    //         nombre: "Nation",
+    //         url: "nation-sa.png",
+    //     },
+    //     {
+    //         nombre: "AutoHaus",
+    //         url: "AUTOHAUS.jpg",
+    //     },
+    //     {
+    //         nombre: "FordGoldstein",
+    //         url: "GOLDSTEIN.jpg",
+    //     },
+    //     {
+    //         nombre: "Yacopini",
+    //         url: "yacopini.png",
+    //     },
+    //     {
+    //         nombre: "Giama",
+    //         url: "GIAMA.png",
+    //     },
+    //     {
+    //         nombre: "LeParc",
+    //         url: "le-parc.png",
+    //     },
+    //     {
+    //         nombre: "GrupoAntun",
+    //         url: "grupo-antun.jpg",
+    //     },
+    //     {
+    //         nombre: "AutoCity",
+    //         url: "Autocity-01.png",
+    //     },
+    // ];
 
     return (
         <div className="container">
+            <Card />
             <div className={styles.swiperContainer}>
                 <Swiper
                     className="mt-5"
@@ -78,11 +79,6 @@ export const Slider = () => {
                         },
                     }}
                 >
-                    {marcas?.map((marca) => (
-                        <SwiperSlide key={marca.nombre} className={`${styles.swiper__container} mt-5`}>
-                            <Card marca={marca} />
-                        </SwiperSlide>
-                    ))}
                 </Swiper>
             </div>
         </div>
