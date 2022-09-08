@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { FormPage } from "../FormPage/FormPage";
+import { FormPage } from "../FormPage";
+import { FooterPage } from "../FooterPage";
 import { NavBar } from "../Navbar";
 
 export const Layout = ({ children }) => {
@@ -21,7 +22,9 @@ export const Layout = ({ children }) => {
 
       {/* FORMULARIO */}
       <FormPage />
+
       {/* FOOTER */}
+      <FooterPage />
     </>
   );
 };
