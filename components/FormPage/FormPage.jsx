@@ -10,11 +10,11 @@ export const FormPage = () => {
                 <h1>Contactanos</h1>
             </div>
 
-            <Form className="container bg-form mt-5">
+            <Form className={`${styles.bg_form} container mb-5`}>
                 <div className={styles.form__group}>
                     <div>
                         <Form.Group
-                            className="mb-5 form__group__input"
+                            className={`${styles.form__group__input} mb-5`}
                             controlId="formBasicName"
                         >
                             <Form.Control type="name" placeholder="Nombre" />
