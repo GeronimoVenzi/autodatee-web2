@@ -16,11 +16,6 @@
     justify-content: center;
 }
 
-.image__principal{
-    min-width: 200px;
-    max-width: 600px;
-}
-
 .title__container{
     align-items: center;
     height: 45vh;

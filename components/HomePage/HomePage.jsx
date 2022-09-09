@@ -9,7 +9,7 @@ export const HomePage = () => {
         <section id="inicio" className={`${styles.bg} section mt-0.80`}>
             <div className={styles.home__container}>
                 <main className={styles.image__container}>
-                    <Image className={styles.image__principal} src={Imagen} alt="fondo principal" />
+                    <Image width={800} height={600} src={Imagen} alt="fondo principal" />
                 </main>
                 <div className={styles.title__container}>
                     <p className={`${styles.title__home} text-light `}>
