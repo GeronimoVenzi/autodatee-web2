@@ -1,17 +1,20 @@
+import Image from 'next/image';
+
 import { Card, Container } from "react-bootstrap";
+
 
 import styles from "./AboutPage.module.css";
 
-import Imagen from "../assets/iconos-valores/1.png";
+import Confiabilidad from "../assets/iconos-valores/5.png";
+import Transparencia from "../assets/iconos-valores/4.png";
+import Respeto from "../assets/iconos-valores/3.png";
+import Compromiso from "../assets/iconos-valores/2.png";
+import Creatividad from "../assets/iconos-valores/1.png";
+
+
 
 export const AboutPage = () => {
-    const valores = [
-        { id: 5, nombre: "Confiabilidad" },
-        { id: 4, nombre: "Transparencia" },
-        { id: 3, nombre: "Respeto" },
-        { id: 2, nombre: "Compromiso" },
-        { id: 1, nombre: "Creatividad" },
-    ];
+
 
     return (
         <section id="nosotros" className="section">
@@ -47,11 +50,12 @@ export const AboutPage = () => {
                     </article>
                     <div className={styles.card__container}>
                         <Card className={styles.team__card}>
-                            <Card.Img
+                            <Image
                                 className={styles.image__card}
                                 rounded="true"
                                 variant="top"
-                                src={Imagen}
+                                src={Confiabilidad}
+                                alt="logos"
                             />
                             <Card.Body>
                                 <h5 className={`${styles.cards__title} text-center`}>Jane Cooper</h5>
@@ -61,11 +65,12 @@ export const AboutPage = () => {
                             </Card.Body>
                         </Card>
                         <Card className={styles.team__card}>
-                            <Card.Img
+                            <Image
                                 className={styles.image__card}
                                 rounded="true"
                                 variant="top"
-                                src={Imagen}
+                                src={Confiabilidad}
+                                alt="logos"
                             />
                             <Card.Body>
                                 <h5 className={`${styles.cards__title} text-center`}>Jane Cooper</h5>
@@ -75,11 +80,12 @@ export const AboutPage = () => {
                             </Card.Body>
                         </Card>
                         <Card className={styles.team__card}>
-                            <Card.Img
+                            <Image
                                 className={styles.image__card}
                                 rounded="true"
                                 variant="top"
-                                src={Imagen}
+                                src={Confiabilidad}
+                                alt="logos"
                             />
                             <Card.Body>
                                 <h5 className={`${styles.cards__title} text-center`}>Jane Cooper</h5>
@@ -94,21 +100,70 @@ export const AboutPage = () => {
                 <Container>
                     <h3 className={styles.title__second}>Valores</h3>
                     <div className={styles.card__container__valores}>
-                        {valores.map((valor) => {
-                            return (
-                                <Card className={styles.valor__card}>
-                                    <Card.Img
-                                        className={styles.image__card}
-                                        rounded="true"
-                                        variant="top"
-                                        src={`../assets/iconos-valores/${valor.id}.png`}
-                                    />
-                                    <Card.Body>
-                                        <h5 className={`${styles.cards__title} text-center`}>{valor.nombre}</h5>
-                                    </Card.Body>
-                                </Card>
-                            );
-                        })}
+
+
+                        <Card className={styles.valor__card}>
+                            <Image
+                                className={styles.image__card}
+                                rounded="true"
+                                variant="top"
+                                src={Confiabilidad}
+                                alt="valores"
+                            />
+                            <Card.Body>
+                                <h5 className={`${styles.cards__title} text-center`}>Confiabilidad</h5>
+                            </Card.Body>
+                        </Card>
+                        <Card className={styles.valor__card}>
+                            <Image
+                                className={styles.image__card}
+                                rounded="true"
+                                variant="top"
+                                src={Transparencia}
+                                alt="valores"
+                            />
+                            <Card.Body>
+                                <h5 className={`${styles.cards__title} text-center`}>Transparencia</h5>
+                            </Card.Body>
+                        </Card>
+                        <Card className={styles.valor__card}>
+                            <Image
+                                className={styles.image__card}
+                                rounded="true"
+                                variant="top"
+                                src={Respeto}
+                                alt="valores"
+                            />
+                            <Card.Body>
+                                <h5 className={`${styles.cards__title} text-center`}>Respeto</h5>
+                            </Card.Body>
+                        </Card>
+                        <Card className={styles.valor__card}>
+                            <Image
+                                className={styles.image__card}
+                                rounded="true"
+                                variant="top"
+                                src={Compromiso}
+                                alt="valores"
+                            />
+                            <Card.Body>
+                                <h5 className={`${styles.cards__title} text-center`}>Compromiso</h5>
+                            </Card.Body>
+                        </Card>
+                        <Card className={styles.valor__card}>
+                            <Image
+                                className={styles.image__card}
+                                rounded="true"
+                                variant="top"
+                                src={Creatividad}
+                                alt="valores"
+                            />
+                            <Card.Body>
+                                <h5 className={`${styles.cards__title} text-center`}>Creatividad</h5>
+                            </Card.Body>
+                        </Card>
+
+
                     </div>
                 </Container>
             </Container>

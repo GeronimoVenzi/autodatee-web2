@@ -10,6 +10,11 @@
 .title__about h1 {
     font-weight: bold;
     font-size: 2.5rem;
+    color: var(--titulosWeb);
+}
+
+.about__container {
+    color: #000;
 }
 
 .title__second {
@@ -48,6 +53,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    color: #000;
 }
 
 .card__container h5 {
@@ -70,6 +76,7 @@
     .about__container{
         display: flex;
         justify-content: space-between;
+        
     }
 
     .about__container article {
