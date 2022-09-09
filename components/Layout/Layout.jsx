@@ -8,6 +8,10 @@ export const Layout = ({ children }) => {
     <>
       <Head>
         <title>Autodatee Web</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
         {/*<meta name="description" content={`Informacion sobre el Pokemon ${title}`} />
                     <meta name="keywords" content={`${title}, pokemon, pokedex`} />
                     <meta property="og:title" content={`Pokemon ${title}`} />

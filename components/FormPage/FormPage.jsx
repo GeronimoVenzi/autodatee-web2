@@ -7,10 +7,10 @@ export const FormPage = () => {
     return (
         <section className="mb-5">
             <div className="text-center">
-                <h1>Contactanos</h1>
+                <h1 className={styles.form__title}>Contactanos</h1>
             </div>
 
-            <Form className={`${styles.bg_form} container mb-5`}>
+            <Form className={`${styles.bg_form} container mb-5 mt-5`}>
                 <div className={styles.form__group}>
                     <div>
                         <Form.Group

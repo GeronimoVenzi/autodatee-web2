@@ -4,6 +4,10 @@
     border-radius: 15px;
 }
 
+.form__title {
+    color: var(--titulosWeb);
+}
+
 .form__btn {
     border-radius: 20px !important;
     font-size: 15px !important;
