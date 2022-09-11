@@ -5,12 +5,12 @@ import styles from "./FormPage.module.css";
 
 export const FormPage = () => {
   return (
-    <section className="mb-5" id="contacto">
+    <section className="section__container" id="contacto">
       <div className="text-center">
         <h1 className={styles.form__title}>Contactanos</h1>
       </div>
 
-      <Form className={`${styles.bg_form} container mb-5 mt-5`}>
+      <Form className={`${styles.bg_form} container mb-5 mt-5 font__mont`}>
         <div className={styles.form__group}>
           <div>
             <Form.Group
@@ -44,7 +44,7 @@ export const FormPage = () => {
           </div>
         </div>
 
-        <div className={styles.form__textarea}>
+        <div className={`${styles.form__textarea}`}>
           <FloatingLabel
             className="mb-5"
             controlId="floatingTextarea2"

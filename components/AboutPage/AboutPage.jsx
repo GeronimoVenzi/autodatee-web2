@@ -15,7 +15,7 @@ export const AboutPage = () => {
     <section id="nosotros" className="section">
       <Container fluid>
         <div className={styles.title__about}>
-          <h1>Nosotros</h1>
+          <h1 className="font__mont">Nosotros</h1>
         </div>
         <Container className={styles.about__container}>
           <article>

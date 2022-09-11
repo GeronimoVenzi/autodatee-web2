@@ -12,7 +12,12 @@ export const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
         />
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;500;800&family=Montserrat:wght@400;800&family=Raleway:wght@800&display=swap"
+          rel="stylesheet"
+        />
         {/*<meta name="description" content={`Informacion sobre el Pokemon ${title}`} />
                     <meta name="keywords" content={`${title}, pokemon, pokedex`} />
                     <meta property="og:title" content={`Pokemon ${title}`} />

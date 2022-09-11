@@ -1,11 +1,7 @@
 import { Layout } from "../../components/Layout";
 
 const Estrategia = () => {
-  return (
-    <Layout>
-      <h1>Estamos en Estrategia</h1>
-    </Layout>
-  );
+  return <Layout></Layout>;
 };
 
 export default Estrategia;

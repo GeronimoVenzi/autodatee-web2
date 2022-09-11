@@ -6,8 +6,25 @@
   --textoObscuro: #18191F;
   --textoGris: #383838; 
 }
+h1{
+  color: var(--titulosWeb);
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
 
-.section {
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: var(--primario);
+}
+
+.font__mont{
+  font-family: 'Montserrat', sans-serif;
+}
+.section{
   min-height: 100vh;
 }
 
+.section__container{
+  padding: 100px;
+}
