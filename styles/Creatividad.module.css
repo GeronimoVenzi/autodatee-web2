@@ -1,0 +1,12 @@
+.bg__creatividad{
+    background-image: url('../components/assets/secciones/Creatividadycontenidos/creatividad-y-contenidos-sin-txt.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn__creatividad {
+    color: var(--creatividad);
+    border: 1px var(--creatividad) solid;
+}
