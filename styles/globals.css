@@ -14,7 +14,6 @@ h1{
 }
 
 body {
-  font-family: 'Montserrat Alternates', sans-serif;
   background-color: var(--primario);
 }
 
@@ -27,4 +26,21 @@ body {
 
 .section__container{
   padding: 100px;
+}
+
+.title__principal{
+  padding-top: 150px;
+  margin-left: 100px;
+  
+}
+.title__principal h1 {
+  font-size: 100px;
+  color: var(--textoClaro);
+  border-bottom: 5px solid white;
+  display: inline;
+}
+.title__principal p {
+  color: var(--textoClaro);
+  font-size: 35px;
+  margin-top: 20px;
 }

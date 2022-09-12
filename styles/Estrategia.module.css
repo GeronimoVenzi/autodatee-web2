@@ -1,0 +1,7 @@
+.bg__estrategia{
+    background-image: url('../components/assets/secciones/Estrategia/estrategia_sin_texto.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
