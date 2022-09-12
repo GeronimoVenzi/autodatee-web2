@@ -91,53 +91,93 @@ export const Slider = () => {
         >
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Prana} alt="Prana" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Prana}
+                alt="Prana"
+              />
             </div>
           </SwiperSlide>
 
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Autocity} alt="Autocity" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Autocity}
+                alt="Autocity"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Autohaus} alt="Autohaus" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Autohaus}
+                alt="Autohaus"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Giama} alt="Giama" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Giama}
+                alt="Giama"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Goldstein} alt="Goldstein" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Goldstein}
+                alt="Goldstein"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Descarga} alt="Descarga" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Descarga}
+                alt="Descarga"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Antun} alt="Antun" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Antun}
+                alt="Antun"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Leparc} alt="LeParc" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Leparc}
+                alt="LeParc"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Yacopini} alt="Yacopini" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Yacopini}
+                alt="Yacopini"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide className={`${styles.swiper__container} mt-5`}>
             <div className={styles.card__marca}>
-              <Image src={Nation} alt="Nation" />
+              <Image
+                className={styles.swiper__container__img}
+                src={Nation}
+                alt="Nation"
+              />
             </div>
           </SwiperSlide>
         </Swiper>

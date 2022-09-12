@@ -50,6 +50,10 @@
     align-items: center;
 }
 
+.swiper__container__img{
+    z-index: -1 !important;
+}
+
 @media (max-width:  350px) {
     .types {
         flex-direction: column;
