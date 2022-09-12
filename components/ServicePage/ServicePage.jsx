@@ -47,13 +47,15 @@ export const ServicePage = () => {
           </Col>
 
           <Col xs={6} md={4}>
-            <Card
-              className={`${styles.card__services} ${styles.card__social} mt-3`}
-            >
-              <Card.Body className={styles.service__card__body}>
-                <p>SOCIAL MEDIA</p>
-              </Card.Body>
-            </Card>
+            <Link href="/social">
+              <Card
+                className={`${styles.card__services} ${styles.card__social} mt-3`}
+              >
+                <Card.Body className={styles.service__card__body}>
+                  <p>SOCIAL MEDIA</p>
+                </Card.Body>
+              </Card>
+            </Link>
           </Col>
           <Col xs={6} md={4}>
             <Card

@@ -1,0 +1,12 @@
+.bg__social{
+    background-image: url('../components/assets/secciones/Socialmedia/social-media-sin-txt.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn__social {
+    color: var(--social);
+    border: 1px var(--social) solid;
+}

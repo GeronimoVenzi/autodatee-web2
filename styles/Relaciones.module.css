@@ -6,11 +6,6 @@
     background-size: cover;
 }
 
-.bg__relaciones {
-    color: var(--relaciones);
-    border: 1px var(--relaciones) solid;
-}
-
 .btn__relaciones {
     color: var(--relaciones);
     border: 1px var(--relaciones) solid;
