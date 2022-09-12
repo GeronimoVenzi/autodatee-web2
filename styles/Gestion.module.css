@@ -1,0 +1,12 @@
+.bg__gestion{
+    background-image: url('../components/assets/secciones/Gestiondecrisis/gestion-de-crisis-sin-txt.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn__gestion {
+    color: var(--gestion);
+    border: 1px var(--gestion) solid;
+}
