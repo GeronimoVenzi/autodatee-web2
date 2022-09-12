@@ -5,3 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn__estrategia {
+    color: var(--estrategia);
+    border: 1px var(--estrategia) solid;
+}

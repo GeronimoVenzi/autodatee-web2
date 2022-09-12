@@ -4,7 +4,13 @@
   --titulosCard: #323267;
   --textoClaro: #f9f9f9;
   --textoObscuro: #18191F;
-  --textoGris: #383838; 
+  --textoGris: #383838;
+  --estrategia: #5d216f;
+  /* -- : #229ed2;
+  -- : #990099;
+  -- : #0f5c9f;
+  -- : #d90099;
+  -- : #7671ff; */
 }
 h1{
   color: var(--titulosWeb);
@@ -29,12 +35,14 @@ body {
 }
 
 .title__principal{
-  padding-top: 150px;
-  margin-left: 100px;
-  
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
 }
 .title__principal h1 {
-  font-size: 100px;
+  font-size: 50px;
   color: var(--textoClaro);
   border-bottom: 5px solid white;
   display: inline;
@@ -44,3 +52,75 @@ body {
   font-size: 35px;
   margin-top: 20px;
 }
+
+.cards__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+
+.buttons__container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.buttons__container div {
+  border-radius: 90px;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text__cards {
+  text-align: center;
+  padding: 100px;
+}
+
+.text__cards p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border-bottom: 1px var(--estrategia) solid;
+}
+
+.card__section {
+  border: none;
+  width: 30%;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .title__principal{
+    margin-left: 100px;
+    display: block;
+  }
+  .title__principal h1 {
+    font-size: 100px;
+    color: var(--textoClaro);
+    border-bottom: 5px solid white;
+    display: inline;
+  }
+  .title__principal p {
+    color: var(--textoClaro);
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  
+ 
+
+}
+
