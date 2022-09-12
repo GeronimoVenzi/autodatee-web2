@@ -55,14 +55,14 @@ body {
 
 .cards__container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  padding-top: 100px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
 }
 
 .buttons__container {
-  margin-top: 60px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   gap: 6px;
@@ -93,16 +93,21 @@ body {
   align-items: center;
   background: transparent;
   border-bottom: 1px var(--estrategia) solid;
+  margin-top: -210px !important;
+  color: var(--estrategia);
 }
+
 
 .card__section {
   border: none;
-  width: 30%;
-  height: auto;
+  width: 90%;
   border: 2px #f9f9f9 solid;
   border-radius: 15px;
   box-shadow:  0 -1em 3em rgba(0,0,0,0.1);
+  margin-top: 120px;
   padding: 50px;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 
@@ -123,8 +128,17 @@ body {
     margin-top: 20px;
   }
 
+  .cards__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 130px;
+    flex-wrap: wrap;
+  }
   
- 
+  .card__section {
+    width: 32%;
+  }
 
 }
-

@@ -14,8 +14,6 @@ export const Cards = ({ children, data }) => {
                 <Card.Body>
                     <Card.Text className='text-center'> {data.text} </Card.Text>
                 </Card.Body>
-
-
             </Card>
         </>
     )
