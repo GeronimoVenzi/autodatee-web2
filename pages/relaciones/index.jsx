@@ -14,7 +14,7 @@ const Relaciones = () => {
     <Layout title="Relaciones públicas">
       <section className={`section ${styles.bg__relaciones}`}>
         <div className={`title__principal font__mont`}>
-          <h1>RELACIONES PÚBLICAS</h1>
+          <h1>RELACIONES <br /> PÚBLICAS</h1>
           <p>¡Destacate y generá confianza entre tus clientes!</p>
         </div>
       </section>

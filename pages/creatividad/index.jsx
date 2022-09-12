@@ -8,19 +8,19 @@ import Consultoria from "../../components/assets/secciones/Creatividadycontenido
 const Creatividad = () => {
   const card1 = {
     title: "Identidad",
-    text: "Atracción de clientes con contenido útil y relevante. Ayudamos a definir con claridad la oferta de la empresa al mercado. Qué, quiénes, cómo y de qué forma se va a posicionar. Estructuramos las partes que componen la emprea en torno a la propuesta de valor para diferenciarse de la competencia y fidelizar a los clientes.",
+    text: "Creación de una estética profesional que habla de tu empresa. Diseño de lenguajes gráficos (logos, colores, tipografías) y herramientas necesarias para transmitir una personalidad que destaque en el mercado.",
   };
 
   const card2 = {
     title: "Visual",
-    text: "Auxiliamos a los clientes a identificar mercados clave, consumidores de interés y estrategias de marketing. Mantenemos una comunicación constante y reuniones estratégicas para analizar los resultados.",
+    text: "Creación de conocimientos demandados por el buyer person para convertir a las empresas en referentes del mercado. Optimización del posicionamiento orgánico en motores de búsqueda para la generación de visitias a la web.",
   };
   return (
     <Layout title="Creatividad y Contenidos">
       <section className={`section ${styles.bg__creatividad}`}>
         <div className={`title__principal font__mont`}>
-          <h1>CREATIVIDAD Y CONTENIDOS</h1>
-          <p>Creamos contenidos para tu marca con resultados que enamoran</p>
+          <h1>CREATIVIDAD Y <br /> CONTENIDOS</h1>
+          <p>Creamos contenidos para tu marca <br /> con resultados que enamoran</p>
         </div>
       </section>
       <section className={`${styles.section__creatividad} section`}>
@@ -38,9 +38,8 @@ const Creatividad = () => {
         </div>
         <div className="text__cards">
           <p>
-            Trabajamos <b>en conjunto con nuestro cliente</b> para lograr la
-            idea, los pasos y los <br /> objetivos que cumpliremos con la
-            implementación de esta objetiva y creativa idea.
+            Elaboramos los <b>lineamientos de dicsurso</b> <br />
+            que toda organización precisa para relatar lo que hace <br /> y cómo lo que hace impacta en la comunidad.
           </p>
         </div>
       </section>
