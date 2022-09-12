@@ -35,13 +35,15 @@ export const ServicePage = () => {
             </Link>
           </Col>
           <Col xs={6} md={4}>
-            <Card
-              className={`${styles.card__services} ${styles.card__relaciones} mt-3`}
-            >
-              <Card.Body className={styles.service__card__body}>
-                <p>RELACIONES PÚBLICAS</p>
-              </Card.Body>
-            </Card>
+            <Link href="/relaciones">
+              <Card
+                className={`${styles.card__services} ${styles.card__relaciones} mt-3`}
+              >
+                <Card.Body className={styles.service__card__body}>
+                  <p>RELACIONES PÚBLICAS</p>
+                </Card.Body>
+              </Card>
+            </Link>
           </Col>
 
           <Col xs={6} md={4}>

@@ -16,11 +16,11 @@ const Estrategia = () => {
     text: 'Auxiliamos a los clientes a identificar mercados clave, consumidores de interés y estrategias de marketing. Mantenemos una comunicación constante y reuniones estratégicas para analizar los resultados.'
   }
   return (
-    <Layout>
+    <Layout title="Estrategia">
       <section className={`section ${styles.bg__estrategia}`}>
         <div className={`title__principal font__mont`}>
           <h1>ESTRATEGIA</h1>
-          <p>Pienso, luego existo</p>
+          <p>Planifico, luego existo.</p>
         </div>
       </section>
       <section className={`${styles.section__estrategia} section`}>

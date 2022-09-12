@@ -1,0 +1,17 @@
+.bg__relaciones{
+    background-image: url('../components/assets/secciones/Relacionespublicas/Relaciones-publicas-sin-txt.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg__relaciones {
+    color: var(--relaciones);
+    border: 1px var(--relaciones) solid;
+}
+
+.btn__relaciones {
+    color: var(--relaciones);
+    border: 1px var(--relaciones) solid;
+}
