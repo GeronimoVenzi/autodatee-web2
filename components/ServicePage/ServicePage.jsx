@@ -69,13 +69,15 @@ export const ServicePage = () => {
             </Link>
           </Col>
           <Col xs={6} md={4}>
-            <Card
-              className={`${styles.card__services} ${styles.card__generacion} mt-3`}
-            >
-              <Card.Body className={styles.service__card__body}>
-                <p>GENERACIÓN DE LEADS</p>
-              </Card.Body>
-            </Card>
+            <Link href="/leads">
+              <Card
+                className={`${styles.card__services} ${styles.card__generacion} mt-3`}
+              >
+                <Card.Body className={styles.service__card__body}>
+                  <p>GENERACIÓN DE LEADS</p>
+                </Card.Body>
+              </Card>
+            </Link>
           </Col>
         </Row>
         {/* </CardGroup> */}
