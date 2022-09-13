@@ -1,0 +1,12 @@
+.bg__leads{
+    background-image: url('../components/assets/secciones/Generaciondeleads/Generacion-de-leads-sin-txt.png');
+    height: 120vh;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn__leads {
+    color: var(--leads);
+    border: 1px var(--leads) solid;
+}
