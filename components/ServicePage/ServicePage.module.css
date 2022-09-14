@@ -15,6 +15,10 @@
     background-size: cover;
 }
 
+.card__services:hover {
+    cursor: pointer;
+}
+
 .card__estrategia {
     background-image: url("../assets/cards-service/Instancia-1/estrategia1.png");
     transition: 0.3s all ease-in;
@@ -83,3 +87,4 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+

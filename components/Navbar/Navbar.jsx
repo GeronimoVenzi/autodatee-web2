@@ -1,12 +1,13 @@
+import Image from "next/image";
+import Link from "next/link";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { NavDropdown } from "react-bootstrap";
+import { ListGroup, NavDropdown } from "react-bootstrap";
 
 import Logo from "/components/assets/Logos/AD-logo.png";
 import styles from "./Navbar.module.css";
-import Image from "next/image";
 export const NavBar = () => {
   return (
     <>
@@ -43,20 +44,36 @@ export const NavBar = () => {
                 pe-3
                 `}
               >
-                <Nav.Link href="#inicio">Home</Nav.Link>
-                <Nav.Link href="#nosotros">Sobre nosotros</Nav.Link>
+                <Link href="#inicio">Home</Link>
+                <Link href="#nosotros">Sobre nosotros</Link>
                 <NavDropdown
                   title="Servicios"
                   id={`offcanvasNavbarDropdown-expand`}
                 >
-                  <NavDropdown.Item href="/estrategia">Estrategia</NavDropdown.Item>
-                  <NavDropdown.Item href="/creatividad">Creatividad y Contenidos</NavDropdown.Item>
-                  <NavDropdown.Item href="/relaciones">Relaciones Públicas</NavDropdown.Item>
-                  <NavDropdown.Item href="/social">Social Media</NavDropdown.Item>
-                  <NavDropdown.Item href="/gestion">Gestión de Crisis</NavDropdown.Item>
-                  <NavDropdown.Item href="/leads">Generación de Leads</NavDropdown.Item>
+                  <NavDropdown.ItemText>
+                    <Link href={"/estrategia"}>Estrategia</Link>
+                  </NavDropdown.ItemText>
+                  <NavDropdown.ItemText>
+                    <Link href={"/creatividad"}>Creatividad y Contenidos</Link>
+                  </NavDropdown.ItemText>
+
+                  <NavDropdown.ItemText>
+                    <Link href={"/relaciones"}>Relaciones Públicas</Link>
+                  </NavDropdown.ItemText>
+
+                  <NavDropdown.ItemText>
+                    <Link href={"/social"}>Social Media</Link>
+                  </NavDropdown.ItemText>
+
+                  <NavDropdown.ItemText>
+                    <Link href={"/gestion"}>Gestión de Crisis</Link>
+                  </NavDropdown.ItemText>
+
+                  <NavDropdown.ItemText>
+                    <Link href={"/leads"}>Generación de Leads</Link>
+                  </NavDropdown.ItemText>
                 </NavDropdown>
-                <Nav.Link href="#contacto">Contactanos</Nav.Link>
+                <Link href="#contacto">Contactanos</Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

@@ -9,9 +9,12 @@
     z-index: 2 !important;
 }
 
-.nav_link_text {
+.nav_link_text a{
     color: black;
+    text-decoration: none;
+    padding: 10px 0;
 }
+
 
 @media only screen and (min-width: 768px) {
    
