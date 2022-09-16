@@ -4,7 +4,7 @@ export const FooterPage = () => {
     return (
         <footer className={styles.footer__container}>
             <div>
-                <p> © 2020 All rights reserved.</p>
+                <p className={`${styles.font__mont__alt}`}> © 2020 All rights reserved.</p>
             </div>
             <div className={styles.footer__container__icons}>
                 <a href=""><i className="bi bi-instagram"></i></a>

@@ -24,7 +24,7 @@ const Estrategia = () => {
         </div>
       </section>
       <section className={`${styles.section__estrategia} section`}>
-        <div className="cards__container">
+        <div className={`cards__container `}>
           <Cards data={card1}>
             {Modelo}
           </Cards>
@@ -32,7 +32,7 @@ const Estrategia = () => {
             {Consultoria}
           </Cards>
         </div>
-        <div className={`buttons__container`}>
+        <div className={`buttons__container font__mont`}>
           <div className={styles.btn__estrategia}>DIAGNÓSTICO</div>
           <div className={styles.btn__estrategia}>SEGMENTACIÓN</div>
           <div className={styles.btn__estrategia}>TARGETIZACIÓN</div>
@@ -50,7 +50,7 @@ const Estrategia = () => {
           </p>
         </div>
       </section>
-    </Layout>
+    </Layout >
   );
 };
 

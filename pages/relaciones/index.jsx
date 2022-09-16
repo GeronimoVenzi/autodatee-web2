@@ -22,7 +22,7 @@ const Relaciones = () => {
         <div className="cards__container">
           <Cards data={card1}>{Modelo}</Cards>
         </div>
-        <div className={`buttons__container`}>
+        <div className={`buttons__container font__mont`}>
           <div className={styles.btn__relaciones}>
             PRENSA
           </div>

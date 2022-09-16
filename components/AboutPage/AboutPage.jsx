@@ -19,11 +19,11 @@ export const AboutPage = () => {
         </div>
         <Container className={styles.about__container}>
           <article>
-            <h2 className={`${styles.title__second} ${styles.title__nosotros}`}>
+            <h2 className={`${styles.title__second} ${styles.title__nosotros} font__mont__alt`}>
               Con una mirada 360
             </h2>
             <div>
-              <p>
+              <p className={`${styles.font__mont__alt}`}>
                 Somos una empresa de base tecnológica con un arraigo genético al
                 arte de la venta. Ofrecemos el conocimiento y las herramientas
                 por medio de un equipo profesional e interdisciplinario en una
@@ -53,10 +53,10 @@ export const AboutPage = () => {
                 alt="logos"
               />
               <Card.Body>
-                <h5 className={`${styles.cards__title} text-center`}>
+                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
                   Jane Cooper
                 </h5>
-                <p className={`${styles.card__pharagraph} text-center`}>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
                   CEO at Corporation.
                 </p>
               </Card.Body>
@@ -70,10 +70,10 @@ export const AboutPage = () => {
                 alt="logos"
               />
               <Card.Body>
-                <h5 className={`${styles.cards__title} text-center`}>
+                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
                   Jane Cooper
                 </h5>
-                <p className={`${styles.card__pharagraph} text-center`}>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
                   CEO at Corporation.
                 </p>
               </Card.Body>
@@ -87,10 +87,10 @@ export const AboutPage = () => {
                 alt="logos"
               />
               <Card.Body>
-                <h5 className={`${styles.cards__title} text-center`}>
+                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
                   Jane Cooper
                 </h5>
-                <p className={`${styles.card__pharagraph} text-center`}>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
                   CEO at Corporation.
                 </p>
               </Card.Body>
@@ -100,7 +100,7 @@ export const AboutPage = () => {
 
         <Container>
           <h3 className={styles.title__second}>Valores</h3>
-          <div className={styles.card__container__valores}>
+          <div className={`${styles.card__container__valores}  ${styles.font__mont__alt}`}>
             <Card className={styles.valor__card}>
               <Image
                 className={styles.image__card}

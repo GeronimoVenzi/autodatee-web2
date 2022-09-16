@@ -10,3 +10,7 @@
     color: var(--social);
     border: 1px var(--social) solid;
 }
+
+.font__mont {
+    font-family: 'Montserrat', sans-serif;
+}

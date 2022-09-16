@@ -11,6 +11,12 @@
     margin: 0 20px;
 }
 
+.font__mont__alt {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+}
+
+
 .footer__container__icons {
     display: flex;
     gap: 20px;

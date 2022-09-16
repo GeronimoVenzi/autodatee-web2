@@ -27,6 +27,10 @@ body {
 .font__mont{
   font-family: 'Montserrat', sans-serif;
 }
+
+.font__mont__alt {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 .section{
   min-height: 100vh;
 }

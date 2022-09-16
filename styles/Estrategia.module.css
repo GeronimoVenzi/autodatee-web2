@@ -10,3 +10,8 @@
     color: var(--estrategia);
     border: 1px var(--estrategia) solid;
 }
+
+.font__mont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
