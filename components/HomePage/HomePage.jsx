@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import styles from "./HomePage.module.css";
 import Imagen from "../assets/Logos/autodatee-color.png";
+import Link from "next/link";
 
 export const HomePage = () => {
   return (
@@ -14,6 +15,12 @@ export const HomePage = () => {
           <p className={`${styles.title__home} text-light `}>
             Impulsamos <br /> tu negocio.
           </p>
+        </div>
+        <div className={styles.button__container}>
+          <Link href="#nosotros">
+            <button className={styles.button__container__img}>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
