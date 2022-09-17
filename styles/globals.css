@@ -1,19 +1,20 @@
 :root {
   --fuenteParrafos: "Quicksand", sans-serif;
-  --titulosWeb: #1570B5;
+  --titulosWeb: #1570b5;
   --titulosCard: #323267;
   --textoClaro: #f9f9f9;
-  --textoObscuro: #18191F;
+  --textoObscuro: #18191f;
   --textoGris: #383838;
 
   --estrategia: #5d216f;
-  --creatividad : #229ed2;
-  --relaciones : #990099;
-  --social : #0f5c9f;
-  --gestion : #d90099;
-  --leads : #7671ff;
+  --creatividad: #229ed2;
+  --relaciones: #990099;
+  --social: #0f5c9f;
+  --gestion: #d90099;
+  --leads: #7671ff;
 }
-h1{
+
+h1 {
   color: var(--titulosWeb);
   font-weight: bold;
   font-size: 2.5rem;
@@ -22,36 +23,57 @@ h1{
 
 body {
   background-color: var(--primario);
+  overflow: "auto";
+  overflow-y: "scroll";
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--textoObscuro);
+  border-radius: 10px;
 }
 
-.font__mont{
-  font-family: 'Montserrat', sans-serif;
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--relaciones);
+
+  border-radius: 10px;
+}
+
+.font__mont {
+  font-family: "Montserrat", sans-serif;
 }
 
 .font__mont__alt {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
-.section{
+
+.section {
   min-height: 100vh;
 }
 
-.section__container{
+.section__container {
   padding: 100px;
 }
 
-.title__principal{
+.title__principal {
   padding-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
+
 .title__principal h1 {
   font-size: 50px;
   color: var(--textoClaro);
   border-bottom: 5px solid white;
   display: inline;
 }
+
 .title__principal p {
   color: var(--textoClaro);
   font-size: 35px;
@@ -102,32 +124,31 @@ body {
   color: var(--estrategia);
 }
 
-
 .card__section {
   border: none;
   width: 90%;
   border: 2px 2px 0px 2px #f9f9f9 solid;
   border-radius: 15px;
-  box-shadow:  0 -1em 3em rgba(0,0,0,0.1);
+  box-shadow: 0 -1em 3em rgba(0, 0, 0, 0.1);
   margin-top: 120px;
   padding: 50px;
   min-height: 400px;
   max-height: 400px;
- 
 }
 
-
 @media only screen and (min-width: 768px) {
-  .title__principal{
+  .title__principal {
     margin-left: 100px;
     display: block;
   }
+
   .title__principal h1 {
     font-size: 100px;
     color: var(--textoClaro);
     border-bottom: 5px solid white;
     display: inline;
   }
+
   .title__principal p {
     color: var(--textoClaro);
     font-size: 35px;
@@ -142,10 +163,9 @@ body {
     padding-top: 130px;
     flex-wrap: wrap;
   }
-  
+
   .card__section {
     width: 32%;
     max-width: 70%;
   }
-
 }
