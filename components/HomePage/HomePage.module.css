@@ -49,11 +49,12 @@
 
 .button__container__img {
     background-image: url('../assets/button.png');
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
@@ -73,6 +74,13 @@
         top: 80vh;
         text-align: left;
         font-size: 4rem;
+    }
+    .button__container {
+        display: flex;
+        justify-content: center;
+        width: 90px;
+        margin-top: -250px;
+        margin-left: 190px;
     }
 }
 
