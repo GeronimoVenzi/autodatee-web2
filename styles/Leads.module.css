@@ -24,6 +24,7 @@
     justify-content: baseline;
     align-items: center;
     gap: 50px;
+    padding: 25px;
 }
 
 .card__marca {
