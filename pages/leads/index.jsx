@@ -1,8 +1,21 @@
+import Image from 'next/image';
 import { Layout } from "../../components/Layout";
 import { Cards } from "../../components/section-cards/Cards";
 import styles from "../../styles/Leads.module.css";
 
 import Modelo from "../../components/assets/secciones/Generaciondeleads/icono1.png";
+
+import Prana from "/components/assets/logos-clientes/prana.jpg";
+import Autocity from "/components/assets/logos-clientes/Autocity-01.png";
+import Autohaus from "/components/assets/logos-clientes/AUTOHAUS.jpg";
+import Descarga from "/components/assets/logos-clientes/descarga.png";
+import Giama from "/components/assets/logos-clientes/GIAMA.png";
+import Goldstein from "/components/assets/logos-clientes/GOLDSTEIN.jpg";
+import Antun from "/components/assets/logos-clientes/grupo-antun.jpg";
+import Leparc from "/components/assets/logos-clientes/le-parc.png";
+import Nation from "/components/assets/logos-clientes/nation-sa.png";
+import Yacopini from "/components/assets/logos-clientes/yacopini.png";
+
 const Leads = () => {
   const card1 = {
     title:
@@ -78,6 +91,81 @@ const Leads = () => {
               Datos de Plan de Ahorro <br /> Todas las marcas
             </b>
           </h2>
+        </div>
+
+        <div className={`${styles.container__card}`}>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Prana}
+              alt="Prana"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Nation}
+              alt="Nation"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Autohaus}
+              alt="Autohaus"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Goldstein}
+              alt="Goldstein"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Yacopini}
+              alt="Yacopini"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Giama}
+              alt="Giama"
+            />
+          </div>
+        </div>
+        <div className={`${styles.container__card}`}>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Leparc}
+              alt="LeParc"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Descarga}
+              alt="Ruta 3"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Autocity}
+              alt="Autocity"
+            />
+          </div>
+          <div className={styles.card__marca}>
+            <Image
+              className={styles.container__img}
+              src={Antun}
+              alt="Grupo Antun"
+            />
+          </div>
         </div>
       </section>
     </Layout>

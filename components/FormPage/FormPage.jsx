@@ -32,7 +32,7 @@ export const FormPage = () => {
               className={`${styles.form__group__input} mb-5`}
               controlId="formBasicEmail"
             >
-              <Form.Control type="email" placeholder="Email" />
+              <Form.Control type="email" placeholder="E-mail" />
             </Form.Group>
 
             <Form.Group
