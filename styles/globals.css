@@ -53,10 +53,11 @@ body::-webkit-scrollbar-thumb {
 
 .section {
   min-height: 100vh;
+  padding-top: 100px;
 }
 
 .section__container {
-  padding: 100px;
+  padding-top: 100px;
 }
 
 .title__principal {
@@ -119,14 +120,13 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-between;
   align-items: center;
   background: transparent;
-  border-bottom: 1px var(--estrategia) solid;
   margin-top: -210px !important;
   color: var(--estrategia);
 }
 
 .card__section {
   border: none;
-  width: 90%;
+  width: 100%;
   border: 2px 2px 0px 2px #f9f9f9 solid;
   border-radius: 15px;
   box-shadow: 0 -1em 3em rgba(0, 0, 0, 0.1);
@@ -134,6 +134,16 @@ body::-webkit-scrollbar-thumb {
   padding: 50px;
   min-height: 400px;
   max-height: 400px;
+}
+
+/*TITULOS DE LAS PAGES*/
+
+.title_leads {
+  color: #1570b5;
+}
+
+.border_leads {
+  border-bottom: 1px var(--leads) solid;
 }
 
 @media only screen and (min-width: 768px) {
@@ -165,7 +175,11 @@ body::-webkit-scrollbar-thumb {
   }
 
   .card__section {
-    width: 32%;
     max-width: 70%;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .card__section {
+    width: 40%;
   }
 }

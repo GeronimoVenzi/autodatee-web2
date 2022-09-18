@@ -11,16 +11,15 @@ export const HomePage = () => {
         <main className={styles.image__container}>
           <Image width={800} height={600} src={Imagen} alt="fondo principal" />
         </main>
-        <div className={styles.title__container}>
-          <p className={`${styles.title__home} text-light `}>
-            Impulsamos <br /> tu negocio.
-          </p>
-        </div>
-        <div className={styles.button__container}>
-          <Link href="#nosotros">
-            <button className={styles.button__container__img}>
-            </button>
-          </Link>
+        <div>
+          <div className={styles.title__container}>
+            <p className={`${styles.title__home} text-light `}>
+              Impulsamos <br /> tu negocio.
+            </p>
+            <Link href="#nosotros">
+              <button className={`${styles.button__container__img}`}></button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import { Layout } from "../../components/Layout";
 import { Cards } from "../../components/section-cards/Cards";
 import styles from "../../styles/Leads.module.css";
@@ -18,6 +18,7 @@ import Yacopini from "/components/assets/logos-clientes/yacopini.png";
 
 const Leads = () => {
   const card1 = {
+    page: "leads",
     title:
       "Seamos socios estratégicos. Impulsa tus ventas con leads clasificados",
     text: "¿Qué es un lead? Un lead es un cliente potencial, una persona que ha indicado interés en el producto o servicio de su empresa de alguna forma. Por ejemplo, un lead sería un usuario que rellena un formulario, que se suscribe a una newsletter o que deja sus datos para recibir más información sobre un producto o servicio determinado. Es fundamental para el éxito de la empresa, contar con herramientas que nos apoyen en nuestros objetivos comerciales.",
@@ -32,7 +33,7 @@ const Leads = () => {
         </div>
       </section>
       <section className={`${styles.section__leads} section`}>
-        <div className="cards__container">
+        <div className={styles.cards__container2}>
           <Cards data={card1}>{Modelo}</Cards>
         </div>
         <div className={`text__cards ${styles.card__lead}`}>
@@ -95,11 +96,7 @@ const Leads = () => {
 
         <div className={`${styles.container__card}`}>
           <div className={styles.card__marca}>
-            <Image
-              className={styles.container__img}
-              src={Prana}
-              alt="Prana"
-            />
+            <Image className={styles.container__img} src={Prana} alt="Prana" />
           </div>
           <div className={styles.card__marca}>
             <Image
@@ -130,14 +127,8 @@ const Leads = () => {
             />
           </div>
           <div className={styles.card__marca}>
-            <Image
-              className={styles.container__img}
-              src={Giama}
-              alt="Giama"
-            />
+            <Image className={styles.container__img} src={Giama} alt="Giama" />
           </div>
-        </div>
-        <div className={`${styles.container__card}`}>
           <div className={styles.card__marca}>
             <Image
               className={styles.container__img}

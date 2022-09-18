@@ -14,7 +14,9 @@ const Relaciones = () => {
     <Layout title="Relaciones públicas">
       <section className={`section ${styles.bg__relaciones}`}>
         <div className={`title__principal font__mont`}>
-          <h1>RELACIONES <br /> PÚBLICAS</h1>
+          <h1>
+            RELACIONES <br /> PÚBLICAS
+          </h1>
           <p>¡Destacate y generá confianza entre tus clientes!</p>
         </div>
       </section>
@@ -23,20 +25,16 @@ const Relaciones = () => {
           <Cards data={card1}>{Modelo}</Cards>
         </div>
         <div className={`buttons__container font__mont`}>
-          <div className={styles.btn__relaciones}>
-            PRENSA
-          </div>
-          <div className={styles.btn__relaciones}>
-            RELACIONAMIENTO
-          </div>
-          <div className={styles.btn__relaciones}>
-            MEDIA TRAINING
-          </div>
+          <div className={styles.btn__relaciones}>PRENSA</div>
+          <div className={styles.btn__relaciones}>RELACIONAMIENTO</div>
+          <div className={styles.btn__relaciones}>MEDIA TRAINING</div>
         </div>
         <div className="text__cards">
           <p>
-            <b>Transmitir un mensaje de manera acertiva</b> puede exigir un <b>entrenamiento</b>. <br />
-            Nosotros nos ocupamos de preparar a los client es que precisen ejercitar <br />
+            <b>Transmitir un mensaje de manera acertiva</b> puede exigir un{" "}
+            <b>entrenamiento</b>. <br />
+            Nosotros nos ocupamos de preparar a los client es que precisen
+            ejercitar <br />
             antes de comunicar lo que hacen.
           </p>
         </div>

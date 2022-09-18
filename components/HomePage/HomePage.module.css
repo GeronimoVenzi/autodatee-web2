@@ -1,93 +1,76 @@
 .bg {
-    background-image: url("../assets/img-principal-inicio-png.png");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../assets/img-principal-inicio-png.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.home__container{
-    display: flex;
-    flex-direction: column;
+.home__container {
+  display: flex;
+  flex-direction: column;
 }
-.image__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.title__container{
-    align-items: center;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-    
+.image__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title__home{
-    position: absolute;
-    right: 70;
-    top: 60vh;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
+.title__container {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
 }
 
-.button__container {
-    display: flex;
-    justify-content: center;
-    width: 90px;
-    margin-top: -130px;
-    margin-left: 160px;
-}
-
-.button__container button {
-    border: none;
-    border-radius: 100px 100px ;
+.title__home {
+  position: absolute;
+  right: 70;
+  top: 60vh;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .button__container__img {
-    background-image: url('../assets/button.png');
-    width: 85px;
-    height: 85px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
+  position: absolute;
+  top: 82vh;
+  background-image: url("../assets/button.png");
+  width: 85px;
+  height: 85px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
-    .bg {
-        height: 140vh;
-        background-size: calc(100%-200px) auto; 
-    }
+  .bg {
+    height: 140vh;
+    background-size: calc(100%-200px) auto;
+  }
 
-    .title__container{
-        min-height: 57vh;
-        justify-content: flex-start;
-        margin-left: 160px;
-        margin-top: 0;
-    }
+  .title__container {
+    min-height: 57vh;
+    justify-content: flex-start;
+    margin-left: 160px;
+    margin-top: 0;
+  }
 
-    .title__home{
-        top: 80vh;
-        text-align: left;
-        font-size: 4rem;
-    }
-    .button__container {
-        display: flex;
-        justify-content: center;
-        width: 90px;
-        margin-top: -250px;
-        margin-left: 190px;
-    }
+  .title__home {
+    top: 80vh;
+    text-align: left;
+    font-size: 4rem;
+  }
+  .button__container__img {
+    margin-top: 180px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    
-    .title__container{
-        margin-left: 280px;
-        margin-top: 160px;
-    }
+  .title__container {
+    margin-left: 280px;
+  }
 }

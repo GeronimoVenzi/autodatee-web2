@@ -1,28 +1,25 @@
-.nav_burger{
-    border: none !important;
+.nav_burger {
+  border: none !important;
 }
 
-.nav_bar{
-    border-bottom:1px solid #e1e6e7;
-    width: 100%;
-    position: fixed;
-    z-index: 2 !important;
+.nav_bar {
+  border-bottom: 1px solid #e1e6e7;
+  width: 100%;
+  position: fixed;
+  z-index: 2 !important;
 }
 
-.nav_link_text a{
-    color: black;
-    text-decoration: none;
-    padding: 10px 0;
+.nav_link_text a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 0;
 }
-
 
 @media only screen and (min-width: 768px) {
-   
-    .nav_burger{
-        margin-right: 120px;
-    }
-    .nav_title{
-        margin-left: 120px;
-    }
-
+  .nav_burger {
+    margin-right: 120px;
+  }
+  .nav_title {
+    margin-left: 120px;
+  }
 }
