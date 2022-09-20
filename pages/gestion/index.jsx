@@ -6,6 +6,7 @@ import Social from "../../components/assets/secciones/Gestiondecrisis/icono1.png
 
 const Creatividad = () => {
     const card1 = {
+        page: "gestion",
         title: "Gestión de crisis",
         text: "En internet todo sucede rápidamente y cualquier noticia puede propagarse en cuestión de minutos. Es importante tomar consciencia de que cualquier acción puede escapar a nuestro control y que una crisis en Redes Sociales puede amenazar a tu empresa y su reputación en cualquier momento.",
     };

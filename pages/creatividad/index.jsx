@@ -7,11 +7,13 @@ import Consultoria from "../../components/assets/secciones/Creatividadycontenido
 
 const Creatividad = () => {
   const card1 = {
+    page: "creatividad",
     title: "Identidad",
     text: "Creación de una estética profesional que habla de tu empresa. Diseño de lenguajes gráficos (logos, colores, tipografías) y herramientas necesarias para transmitir una personalidad que destaque en el mercado.",
   };
 
   const card2 = {
+    page: "creatividad",
     title: "Visual",
     text: "Creación de conocimientos demandados por el buyer person para convertir a las empresas en referentes del mercado. Optimización del posicionamiento orgánico en motores de búsqueda para la generación de visitias a la web.",
   };

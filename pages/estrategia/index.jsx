@@ -7,6 +7,7 @@ import Consultoria from '../../components/assets/secciones/Estrategia/icono2.png
 
 const Estrategia = () => {
   const card1 = {
+    page: "estrategia",
     title: 'Modelo de negocios',
     text: 'Atracción de clientes con contenido útil y relevante. Ayudamos a definir con claridad la oferta de la empresa al mercado. Qué, quiénes, cómo y de qué forma se va a posicionar. Estructuramos las partes que componen la emprea en torno a la propuesta de valor para diferenciarse de la competencia y fidelizar a los clientes.'
   }

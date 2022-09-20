@@ -140,13 +140,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*TITULOS DE LAS PAGES*/
-
-.title_leads {
-  color: #1570b5;
+.title_estrategia {
+  color: var(--estrategia);
 }
 
-.border_leads {
-  border-bottom: 1px var(--leads) solid;
+.title_creatividad {
+  color: var(--creatividad);
+}
+
+.title_relaciones{
+  color: var(--relaciones);
+}
+
+.title_social {
+  color: var(--social);
+}
+
+.title_gestion{
+  color: var(--gestion);
+}
+
+.title_leads {
+  color: var(--leads);
 }
 
 @media only screen and (min-width: 768px) {

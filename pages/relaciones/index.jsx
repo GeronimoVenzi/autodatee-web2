@@ -7,6 +7,7 @@ import Modelo from "../../components/assets/secciones/Relacionespublicas/icono1.
 
 const Relaciones = () => {
   const card1 = {
+    page: "relaciones",
     text: "Comunicación integral en los canales de la empresa enfocada en la estrategia empresarial para transmitir la imagen que la empresa busca.",
   };
 

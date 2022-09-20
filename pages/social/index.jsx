@@ -8,15 +8,18 @@ import Anuncios from "../../components/assets/secciones/Socialmedia/icono3.png";
 
 const Creatividad = () => {
     const card1 = {
+        page: "social",
         title: "Social Media",
         text: "Creamos y administramos los perfiles de las empresas en las redes sociales, a su vez, ayudamos a las empresas a formar una comunidad en base a la estrategia seleccionada para interactuar con su audiencia.",
     };
 
     const card2 = {
+        page: "social",
         title: "Diseño Web",
         text: "Diseñamos tu página web soñada, pensada desde la experiencia del usuario para facilitar la navegabilidad y optimizar los resultados.",
     };
     const card3 = {
+        page: "social",
         title: "Anuncios Online",
         text: "Lográ conectar tu marca con potenciales clientes. Trabajamos con plataformas y espacios publicitarios online.",
     };
