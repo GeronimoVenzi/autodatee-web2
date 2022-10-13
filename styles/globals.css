@@ -122,7 +122,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: transparent;
+  background: transparent !important;
   margin-top: -210px !important;
   color: var(--estrategia);
 }
