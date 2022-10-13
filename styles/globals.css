@@ -182,6 +182,10 @@ body::-webkit-scrollbar-thumb {
     font-size: 35px;
     margin-top: 20px;
   }
+  
+  .card__header {
+    background: transparent;
+  }
 
   .cards__container {
     display: flex;
