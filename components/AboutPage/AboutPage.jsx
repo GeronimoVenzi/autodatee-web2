@@ -24,7 +24,7 @@ export const AboutPage = () => {
             </h2>
             <div>
               <p className={`${styles.font__mont__alt}`}>
-                Somos una empresa de base tecnológica con un arraigo genético al
+                Somos AUTODATEE, una empresa de base tecnológica con un arraigo genético al
                 arte de la venta. Ofrecemos el conocimiento y las herramientas
                 por medio de un equipo profesional e interdisciplinario en una
                 busqueda permanente por la optimización de procesos. Una mirada
