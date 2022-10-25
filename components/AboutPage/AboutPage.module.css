@@ -35,6 +35,7 @@
 .team__card {
     border: none !important;
     width: 8rem;
+    margin-top: 30px;
 }
 
 .cards__title {
@@ -102,6 +103,15 @@
 
     .team__card {
         width: 7rem;
+        margin-top: 30px;
+    }
+
+    .team__card__marcos {
+        margin-top: 10px;
+    }
+
+    .team__card__mel {
+        margin-top: 60px;
     }
 
     .card__container__valores {

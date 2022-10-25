@@ -10,6 +10,11 @@ import Respeto from "../assets/iconos-valores/3.png";
 import Compromiso from "../assets/iconos-valores/1.png";
 import Creatividad from "../assets/iconos-valores/2.png";
 
+import Marcos from "../assets/marcos.jpg";
+import Mel from "../assets/mel.jpg";
+import Stefania from "../assets/stefania.jpeg";
+
+
 export const AboutPage = () => {
   return (
     <section id="nosotros" className="section">
@@ -44,37 +49,60 @@ export const AboutPage = () => {
             </div>
           </article>
           <div className={styles.card__container}>
-            <Card className={styles.team__card}>
+            <Card className={`${styles.team__card} ${styles.team__card__marcos}`}>
               <Image
                 className={styles.image__card}
+                width={100}
+                height={100}
                 rounded="true"
                 variant="top"
-                src={Confiabilidad}
+                src={Marcos}
                 alt="logos"
               />
               <Card.Body>
                 <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
-                  Jane Cooper
+                  Marcos Beruatto
                 </h5>
                 <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
-                  CEO at Corporation.
+                  Founder
                 </p>
               </Card.Body>
             </Card>
-            <Card className={styles.team__card}>
+            <Card className={`${styles.team__card} ${styles.team__card__mel}`}>
               <Image
                 className={styles.image__card}
+                width={100}
+                height={100}
                 rounded="true"
                 variant="top"
-                src={Confiabilidad}
+                src={Mel}
                 alt="logos"
               />
               <Card.Body>
                 <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
-                  Jane Cooper
+                  Paula Melany Yapur
                 </h5>
                 <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
-                  CEO at Corporation.
+                  Co-Founder, dirección de marketing
+                </p>
+              </Card.Body>
+            </Card>
+            <Card className={`${styles.team__card}`}>
+              <Image
+                className={styles.image__card}
+                width={100}
+                height={100}
+                rounded="true"
+                variant="top"
+                src={Stefania}
+                alt="logos"
+              />
+              <Card.Body>
+                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
+                  Stefanía Tapia
+                </h5>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
+                  Trafficker & Diseño
                 </p>
               </Card.Body>
             </Card>
