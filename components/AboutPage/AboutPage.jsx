@@ -106,7 +106,7 @@ export const AboutPage = () => {
                 </p>
               </Card.Body>
             </Card>
-            <Card className={`${styles.team__card}`}>
+            {/* <Card className={`${styles.team__card}`}>
               <Image
                 className={styles.image__card}
                 width={100}
@@ -143,7 +143,7 @@ export const AboutPage = () => {
                   CEO
                 </p>
               </Card.Body>
-            </Card>
+            </Card> */}
           </div>
         </Container>
 
