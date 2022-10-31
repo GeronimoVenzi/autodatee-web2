@@ -15,6 +15,7 @@
 
 .about__container {
     color: #000;
+    gap: 40px;
 }
 
 .title__second {
@@ -28,14 +29,21 @@
     font-weight: 300;
 }
 
-.image__card {
-    border-radius: 50%;
+.card__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .team__card {
     border: none !important;
-    width: 8rem;
+    width: 7rem;
     margin-top: 30px;
+}
+
+.image__card {
+    border-radius: 50%;
 }
 
 .cards__title {
@@ -46,13 +54,6 @@
 .card__pharagraph {
  font-size: 12px !important;
  font-weight: 400;
-}
-
-.card__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
 }
 .card__container__valores{
     display: flex;
@@ -98,7 +99,7 @@
     }
 
     .card__container {
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .team__card {
@@ -136,4 +137,11 @@
         font-weight: 400;
     }
 
+}
+
+@media only screen and (min-width: 1399px) {
+    .about__container .card__container {
+        width: 30%;
+        align-items: center;
+    }
 }

@@ -106,9 +106,11 @@ export const AboutPage = () => {
                 </p>
               </Card.Body>
             </Card>
-            <Card className={styles.team__card}>
+            <Card className={`${styles.team__card}`}>
               <Image
                 className={styles.image__card}
+                width={100}
+                height={100}
                 rounded="true"
                 variant="top"
                 src={Confiabilidad}
@@ -116,10 +118,29 @@ export const AboutPage = () => {
               />
               <Card.Body>
                 <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
-                  Jane Cooper
+                  Jenn Cooper
                 </h5>
                 <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
-                  CEO at Corporation.
+                  CEO
+                </p>
+              </Card.Body>
+            </Card>
+            <Card className={`${styles.team__card}`}>
+              <Image
+                className={styles.image__card}
+                width={100}
+                height={100}
+                rounded="true"
+                variant="top"
+                src={Confiabilidad}
+                alt="logos"
+              />
+              <Card.Body>
+                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
+                  Jenn Cooper
+                </h5>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
+                  CEO
                 </p>
               </Card.Body>
             </Card>
