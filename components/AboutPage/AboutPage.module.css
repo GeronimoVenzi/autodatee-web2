@@ -73,6 +73,11 @@
     width: 10rem;
 }
 
+.card__pharagraph__flor {
+    font-size: 10.5px !important;
+    font-weight: 400;
+}
+
 @media only screen and (min-width: 768px) {
 
     .title__about{
@@ -162,6 +167,6 @@
     }
 
     .team__card__flor{
-        margin-top: 60px;
+        margin-top: 130px;
     }
 }

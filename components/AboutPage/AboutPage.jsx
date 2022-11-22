@@ -147,6 +147,9 @@ export const AboutPage = () => {
                 <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
                   +54 9 11 2631-1303
                 </p>
+                <p className={`${styles.card__pharagraph__flor}  ${styles.font__mont__alt} text-center`}>
+                  fferreyra@autodatee.com.ar
+                </p>
               </Card.Body>
             </Card>
           </div>
