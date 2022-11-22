@@ -13,6 +13,8 @@ import Creatividad from "../assets/iconos-valores/2.png";
 import Marcos from "../assets/marcos.jpg";
 import Mel from "../assets/mel.jpg";
 import Stefania from "../assets/stefania.jpeg";
+import Camila from "../assets/camila.jpeg";
+import Florencia from "../assets/florencia.jpeg";
 
 
 export const AboutPage = () => {
@@ -106,25 +108,6 @@ export const AboutPage = () => {
                 </p>
               </Card.Body>
             </Card>
-            {/* <Card className={`${styles.team__card}`}>
-              <Image
-                className={styles.image__card}
-                width={100}
-                height={100}
-                rounded="true"
-                variant="top"
-                src={Confiabilidad}
-                alt="logos"
-              />
-              <Card.Body>
-                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
-                  Jenn Cooper
-                </h5>
-                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
-                  CEO
-                </p>
-              </Card.Body>
-            </Card>
             <Card className={`${styles.team__card}`}>
               <Image
                 className={styles.image__card}
@@ -132,18 +115,40 @@ export const AboutPage = () => {
                 height={100}
                 rounded="true"
                 variant="top"
-                src={Confiabilidad}
+                src={Camila}
                 alt="logos"
               />
               <Card.Body>
                 <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
-                  Jenn Cooper
+                  Camila Bengolea
                 </h5>
                 <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
-                  CEO
+                  Soporte Online
                 </p>
               </Card.Body>
-            </Card> */}
+            </Card>
+            <Card className={`${styles.team__card} ${styles.team__card__flor}`}>
+              <Image
+                className={styles.image__card}
+                width={100}
+                height={100}
+                rounded="true"
+                variant="top"
+                src={Florencia}
+                alt="logos"
+              />
+              <Card.Body>
+                <h5 className={`${styles.cards__title} font__mont__alt text-center`}>
+                  Florencia Ferreyra
+                </h5>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
+                  Comercial
+                </p>
+                <p className={`${styles.card__pharagraph}  ${styles.font__mont__alt} text-center`}>
+                  +54 9 11 2631-1303
+                </p>
+              </Card.Body>
+            </Card>
           </div>
         </Container>
 
