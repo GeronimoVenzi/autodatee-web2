@@ -87,7 +87,7 @@
 
     .about__container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
 
@@ -161,12 +161,12 @@
 
 @media only screen and (min-width: 1400px) {
     .about__container .card__container {
-        width: 30%;
+        width: 60%;
         align-items: center;
-        gap: 26px;
+        gap: 30px;
     }
 
     .team__card__flor{
-        margin-top: 130px;
+        margin-top: 115px;
     }
 }
