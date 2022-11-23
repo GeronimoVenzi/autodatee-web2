@@ -95,8 +95,9 @@
         width: 40%;
     }
     .about__container .card__container {
-        width: 40%;
+        width: 50%;
         align-items: center;
+        margin: 30px;
     }
 
     .title__second{
@@ -144,18 +145,34 @@
 
 }
 
+@media only screen and (min-width: 990px) {
+    .about__container .card__container {
+        width: 65%;
+        align-items: center;
+        margin: 40px;
+    }
+    .team__card__flor{
+        margin-top: 115px;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .about__container .card__container {
-        width: 30%;
+        width: 35%;
         align-items: center;
+        margin: 30px;
+    }
+    .team__card__flor{
+        margin-top: 115px;
     }
 }
 
 
 @media only screen and (min-width: 1399px) {
     .about__container .card__container {
-        width: 30%;
+        width: 35%;
         align-items: center;
+        margin: 30px;
     }
 }
 
